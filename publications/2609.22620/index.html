@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Splitting Documents at Lower Cost: Multi-Split Boundary Decisions for LLM-Based Page Stream Segmentation | Nikhil Reddy Pottanigari</title>
+  <meta name="description" content="Predicting multiple document boundaries in one model call to improve the accuracy–efficiency trade-off in page stream segmentation.">
+  <link rel="canonical" href="https://nikhilreddy3888.github.io/publications/2609.22620/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Splitting Documents at Lower Cost: Multi-Split Boundary Decisions for LLM-Based Page Stream Segmentation">
+  <meta property="og:description" content="Predicting multiple document boundaries in one model call to improve the accuracy–efficiency trade-off in page stream segmentation.">
+  <meta property="og:url" content="https://nikhilreddy3888.github.io/publications/2609.22620/">
+  <meta name="citation_title" content="Splitting Documents at Lower Cost: Multi-Split Boundary Decisions for LLM-Based Page Stream Segmentation">
+  <meta name="citation_author" content="Pottanigari, Nikhil Reddy">
+  <meta name="citation_author" content="Kharaghani, Sepideh">
+  <meta name="citation_author" content="Vadacchino, Saverio">
+  <meta name="citation_author" content="Posada, Alejandro">
+  <meta name="citation_author" content="Zhang, Ying">
+  <meta name="citation_publication_date" content="2026/09/18">
+  <meta name="citation_online_date" content="2026/09/18">
+  <meta name="citation_technical_report_institution" content="arXiv">
+  <meta name="citation_technical_report_number" content="arXiv:2609.22620">
+  <meta name="citation_arxiv_id" content="2609.22620">
+  <meta name="citation_abstract_html_url" content="https://nikhilreddy3888.github.io/publications/2609.22620/">
+  <meta name="citation_pdf_url" content="https://nikhilreddy3888.github.io/publications/2609.22620/paper.pdf">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet">
+  <link href="/styles/main.css" rel="stylesheet">
+</head>
+<body class="paper-page">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="/" aria-label="Nikhil Reddy Pottanigari home">
+          <span class="brand-mark">NR</span>
+          <span class="brand-copy">Nikhil Reddy</span>
+        </a>
+        <a class="nav-link" href="/#publications">All publications</a>
+      </nav>
+    </header>
+    <main class="section paper-content" id="main-content">
+      <article>
+        <header class="paper-heading">
+          <p class="eyebrow">arXiv preprint &middot; 2609.22620</p>
+          <h1>Splitting Documents at Lower Cost: Multi-Split Boundary Decisions for LLM-Based Page Stream Segmentation</h1>
+          <p class="paper-authors">Nikhil Reddy Pottanigari, Sepideh Kharaghani, Saverio Vadacchino, Alejandro Posada, Ying Zhang</p>
+          <p class="paper-meta">Submitted <time datetime="2026-09-18">18 September 2026</time></p>
+          <p class="paper-note">Accepted at the DocInsights Workshop at EMNLP 2026. <a href="https://arxiv.org/abs/2609.22620">Acceptance note on arXiv</a>.</p>
+          <div class="publication-links" aria-label="Paper resources">
+            <a href="paper.pdf">Read PDF (v1)</a>
+            <a href="https://arxiv.org/abs/2609.22620">arXiv</a>
+            <a href="https://arxiv.org/pdf/2609.22620">Latest arXiv PDF</a>
+            <a href="citation.bib" download>BibTeX</a>
+          </div>
+        </header>
+        <section class="paper-abstract" aria-labelledby="abstract-heading">
+          <h2 id="abstract-heading">Abstract</h2>
+          <p>Scanned mail, uploaded PDFs, and consolidated attachments often arrive as page streams that must be split into individual documents before downstream classification, extraction, or routing. Zero-shot large language models can detect document boundaries without task-specific training, but standard Page Classification (PC) and Boundary Decision (BD) formulations resolve only one boundary per model call. We introduce Multi-Split Boundary Decision (MSBD), which predicts multiple boundaries within a page window in a single call, reducing the number of inference requests. We evaluate MSBD across multiple language models, document collections, input modalities, and window sizes. The results reveal a model- and corpus-dependent operating range in which MSBD preserves strong segmentation accuracy while substantially improving inference efficiency, followed by a sharp decline at larger windows. MSBD provided the strongest overall accuracy--efficiency trade-off, while large windows expose distinct over- and under-segmentation behavior across models. These findings show that multi-boundary prediction can make zero-shot page stream segmentation more efficient when the window size is selected for the target corpus.</p>
+        </section>
+        <p class="paper-license">Abstract and unchanged PDF reproduced from <a href="https://arxiv.org/abs/2609.22620">arXiv:2609.22620</a> (v1), by Nikhil Reddy Pottanigari, Sepideh Kharaghani, Saverio Vadacchino, Alejandro Posada, Ying Zhang, under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>.</p>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <a href="/#publications">Back to publications</a>
+      <a href="/publications/publications.bib" download>Download all three preprint citations</a>
+    </footer>
+  </div>
+</body>
+</html>

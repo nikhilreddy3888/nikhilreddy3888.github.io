@@ -549,6 +549,88 @@ h3 {
   gap: 0.9rem;
 }
 
+.publication-bibliography {
+  width: fit-content;
+  color: var(--accent-strong);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.publication-authors,
+.paper-authors {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.publication-note,
+.paper-note,
+.paper-meta,
+.paper-license {
+  color: var(--muted);
+}
+
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 0.9rem;
+  margin-top: 1rem;
+}
+
+.publication-links a {
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.paper-content {
+  max-width: 56rem;
+  padding-top: 5.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.paper-heading h1 {
+  max-width: 18ch;
+  font-size: clamp(2.55rem, 4.3vw, 4.35rem);
+  line-height: 1;
+}
+
+.paper-authors {
+  margin-top: 1.4rem;
+  line-height: 1.55;
+}
+
+.paper-meta,
+.paper-note,
+.paper-license {
+  line-height: 1.6;
+}
+
+.paper-note {
+  margin-top: 0.8rem;
+}
+
+.paper-abstract {
+  margin-top: 3.4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line-strong);
+}
+
+.paper-abstract h2 {
+  font-size: clamp(1.9rem, 3.4vw, 2.75rem);
+}
+
+.paper-abstract p,
+.paper-license {
+  max-width: 48rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.08rem;
+  line-height: 1.72;
+}
+
+.paper-license {
+  margin-top: 2rem;
+  font-size: 0.92rem;
+}
+
 .publication-card {
   display: flex;
   align-items: flex-start;
@@ -837,6 +919,16 @@ code {
     flex-direction: column;
     padding-bottom: 2rem;
   }
+
+  .paper-content {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .paper-heading h1 {
+    max-width: 16ch;
+    font-size: clamp(2.3rem, 6.2vw, 3.5rem);
+  }
 }
 
 @media (max-width: 520px) {
@@ -880,6 +972,25 @@ code {
 
   .profile-image-wrap {
     min-height: 12.5rem;
+  }
+
+  .paper-content {
+    width: calc(100% - 1.5rem);
+    padding-top: 2.6rem;
+  }
+
+  .paper-heading h1 {
+    font-size: clamp(2rem, 9.5vw, 2.55rem);
+  }
+
+  .paper-abstract {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .paper-abstract p,
+  .paper-license {
+    font-size: 1rem;
   }
 }
 

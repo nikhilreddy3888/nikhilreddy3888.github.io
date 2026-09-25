@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Text, Pixels, or Both? Evaluating Input Representations for Multimodal Document QA | Nikhil Reddy Pottanigari</title>
+  <meta name="description" content="Comparing text, page images, and combined inputs for document QA, including their accuracy, latency, and cost trade-offs.">
+  <link rel="canonical" href="https://nikhilreddy3888.github.io/publications/2609.22628/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Text, Pixels, or Both? Evaluating Input Representations for Multimodal Document QA">
+  <meta property="og:description" content="Comparing text, page images, and combined inputs for document QA, including their accuracy, latency, and cost trade-offs.">
+  <meta property="og:url" content="https://nikhilreddy3888.github.io/publications/2609.22628/">
+  <meta name="citation_title" content="Text, Pixels, or Both? Evaluating Input Representations for Multimodal Document QA">
+  <meta name="citation_author" content="Pottanigari, Nikhil Reddy">
+  <meta name="citation_author" content="Kharaghani, Sepideh">
+  <meta name="citation_author" content="Vadacchino, Saverio">
+  <meta name="citation_author" content="Posada, Alejandro">
+  <meta name="citation_author" content="Zhang, Ying">
+  <meta name="citation_publication_date" content="2026/09/18">
+  <meta name="citation_online_date" content="2026/09/18">
+  <meta name="citation_technical_report_institution" content="arXiv">
+  <meta name="citation_technical_report_number" content="arXiv:2609.22628">
+  <meta name="citation_arxiv_id" content="2609.22628">
+  <meta name="citation_abstract_html_url" content="https://nikhilreddy3888.github.io/publications/2609.22628/">
+  <meta name="citation_pdf_url" content="https://nikhilreddy3888.github.io/publications/2609.22628/paper.pdf">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet">
+  <link href="/styles/main.css" rel="stylesheet">
+</head>
+<body class="paper-page">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="/" aria-label="Nikhil Reddy Pottanigari home">
+          <span class="brand-mark">NR</span>
+          <span class="brand-copy">Nikhil Reddy</span>
+        </a>
+        <a class="nav-link" href="/#publications">All publications</a>
+      </nav>
+    </header>
+    <main class="section paper-content" id="main-content">
+      <article>
+        <header class="paper-heading">
+          <p class="eyebrow">arXiv preprint &middot; 2609.22628</p>
+          <h1>Text, Pixels, or Both? Evaluating Input Representations for Multimodal Document QA</h1>
+          <p class="paper-authors">Nikhil Reddy Pottanigari, Sepideh Kharaghani, Saverio Vadacchino, Alejandro Posada, Ying Zhang</p>
+          <p class="paper-meta">Submitted <time datetime="2026-09-18">18 September 2026</time></p>
+          <p class="paper-note">Accepted as a poster at the Context Beyond the Window (CBW) Workshop at COLM 2026 and the DocInsights Workshop at EMNLP 2026. <a href="https://arxiv.org/abs/2609.22628">Acceptance note on arXiv</a>.</p>
+          <div class="publication-links" aria-label="Paper resources">
+            <a href="paper.pdf">Read PDF (v1)</a>
+            <a href="https://arxiv.org/abs/2609.22628">arXiv</a>
+            <a href="https://arxiv.org/pdf/2609.22628">Latest arXiv PDF</a>
+            <a href="citation.bib" download>BibTeX</a>
+          </div>
+        </header>
+        <section class="paper-abstract" aria-labelledby="abstract-heading">
+          <h2 id="abstract-heading">Abstract</h2>
+          <p>Every document QA system begins with a choice that is rarely studied on its own: whether to feed the model page images, extracted text, or both. We isolate this choice, holding the prompt, judge, and scoring pipeline fixed, across four commercial model endpoints, two corpora, and two context regimes (gold evidence pages and the full document). On documents that fit the image budget, page images lead on accuracy at every document length on both corpora, but this advantage carries a growing latency and cost premium: text latency stays roughly flat as documents lengthen while image latency rises steadily. Text and images also fail on different questions, with exactly one representation correct on 19--25% of items across the reported cells, so neither subsumes the other. Exploiting this complementarity, a lightweight TF-IDF router that reads only the question text gains 2.6 points over always-text while cutting median latency 30% relative to always-vision, on a document-disjoint held-out split.</p>
+        </section>
+        <p class="paper-license">Abstract and unchanged PDF reproduced from <a href="https://arxiv.org/abs/2609.22628">arXiv:2609.22628</a> (v1), by Nikhil Reddy Pottanigari, Sepideh Kharaghani, Saverio Vadacchino, Alejandro Posada, Ying Zhang, under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>.</p>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <a href="/#publications">Back to publications</a>
+      <a href="/publications/publications.bib" download>Download all three preprint citations</a>
+    </footer>
+  </div>
+</body>
+</html>
