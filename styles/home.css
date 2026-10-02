@@ -101,3 +101,48 @@
 html{scroll-padding-top:110px}
 .site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
 @media(max-width:760px){html{scroll-padding-top:140px}}
+
+/* Project names carry the artwork; keep the cards typographic and quiet. */
+.service-content{margin-top:auto}
+.service-card{min-height:330px}
+.service-card .service-tools{font-size:clamp(13px,.9vw,17px);margin-top:24px}
+.work-title-panel{aspect-ratio:4/5;border-radius:9px;padding:clamp(24px,2vw,42px);display:flex;flex-direction:column;justify-content:space-between;background:#eef0ef;color:#172023}
+.work-panel-2{background:#e9efec}
+.work-panel-3{background:#f1ece7}
+.work-title-panel h3{max-width:11ch;font-size:clamp(30px,3vw,62px);font-weight:500;letter-spacing:-.065em;line-height:1.05;overflow-wrap:break-word}
+.work-meta p{margin:13px 0 0;max-width:65ch}
+.work-meta .project-result{color:#303740;font-weight:500}
+.detail-list{margin:17px 0 0;padding-left:1.25em;max-width:75ch;color:var(--muted);font-size:clamp(15px,1.03vw,20px);line-height:1.55}
+.detail-list li{margin:0 0 12px}
+.detail-list code{font:inherit;color:var(--ink)}
+.publication-list{display:grid;gap:12px}
+.publication-card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;padding:clamp(25px,2.5vw,48px);border:1px solid #e1e5e7;border-radius:10px;background:#f7f8f8}
+.publication-card:nth-child(3n+2){background:#f0f4f1}
+.publication-card:nth-child(3n){background:#f5f1ed}
+.publication-card h3{max-width:45ch;font-size:clamp(22px,1.7vw,34px);font-weight:500;line-height:1.18;letter-spacing:-.045em}
+.publication-card h3 a{text-decoration:none}
+.publication-card h3 a:hover,.publication-card h3 a:focus-visible{text-decoration:underline}
+.publication-card p{max-width:78ch;margin:14px 0 0;color:#687383;font-size:clamp(15px,1.02vw,20px);line-height:1.5}
+.publication-card .publication-authors{color:#343b45}
+.publication-card .publication-note{color:#394d48;font-weight:500}
+.publication-tag{color:#576775;font-size:clamp(13px,.85vw,17px);white-space:nowrap}
+.publication-links{display:flex;flex-wrap:wrap;gap:12px 25px;margin-top:22px}
+.publication-links a{color:var(--ink);font-size:clamp(14px,.92vw,18px);text-underline-offset:4px}
+.education-grid .education-note{margin-top:12px}
+@media(max-width:1100px){.work-card:last-child .work-title-panel{aspect-ratio:2/1}}
+@media(max-width:760px){.work-card:last-child .work-title-panel,.work-title-panel{aspect-ratio:4/4}.publication-card{grid-template-columns:1fr}.publication-tag{grid-row:1}.experience-list article{grid-template-columns:1fr}.experience-list article .row-arrow{display:none}}
+@media(max-width:520px){.work-title-panel{aspect-ratio:1/1}.work-title-panel h3{font-size:clamp(30px,8vw,45px)}.service-card{min-height:310px}}
+
+/* Organization marks and the dedicated work index. */
+.udem-logo{width:130px;height:58px}
+.nit-logo{width:58px;height:58px}
+.affiliation-logos{display:flex;align-items:center;flex-wrap:wrap;gap:18px;margin-top:16px}
+.affiliation-logos img{display:block;width:auto;max-width:170px;height:50px;object-fit:contain;object-position:left center}
+.affiliation-logos img[src$="mcgill.png"]{height:38px}
+.work-page-grid{row-gap:clamp(50px,5vw,90px)}
+.work-panel-4{background:#eff0f4}
+.work-panel-5{background:#f2eee9}
+.work-page-grid .work-title-panel h3{font-size:clamp(28px,2.4vw,49px);max-width:15ch}
+.work-page-grid .work-meta{padding-top:20px}
+.work-page-grid .work-meta p{max-width:52ch}
+@media(max-width:760px){.work-page-grid{row-gap:42px}.work-page-grid .work-title-panel h3{font-size:clamp(27px,7.5vw,46px)}}
