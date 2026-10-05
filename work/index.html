@@ -1,26 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Work — Nikhil Reddy Pottanigari</title>
-  <meta name="description" content="Selected research and engineering projects by Nikhil Reddy Pottanigari across proactive agents, decision models, multimodal AI, multilingual systems, and live deployment.">
-  <link rel="canonical" href="https://nikhilreddy3888.github.io/work/"><link rel="icon" type="image/svg+xml" href="/favicon-n.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles/home.css">
+  <meta name="description" content="Selected projects in agents, multimodal AI, and model evaluation.">
+  <meta property="og:title" content="Work — Nikhil Reddy Pottanigari">
+  <meta property="og:description" content="Selected projects in agents, multimodal AI, and model evaluation.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://nikhilreddy3888.github.io/work/">
+  <link rel="icon" type="image/svg+xml" href="/favicon-n.svg">
+  <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header" id="top"><a class="brand" href="/">Nikhil Reddy<span>Applied AI research · Montréal, Canada</span></a><nav aria-label="Primary navigation"><a href="/">Home</a><a href="/about/">About</a><a href="/work/" aria-current="page">Work</a><a href="/publications/">Publications</a><a href="/#contact">Contact</a></nav></header>
-<main id="main">
-<section class="inner-hero page-pad"><p class="page-kicker">Research / Work</p><h1>From ideas to <span>working systems.</span></h1><p>A selection of research prototypes, production-minded systems, and experiments. These projects span multilingual modeling, multimodal reasoning, proactive agents, decision making, and live deployment.</p><a class="underlined-link" href="/public/COLM_Resume_2026.pdf" target="_blank" rel="noopener noreferrer">View current résumé ↗</a></section>
-<section class="work-section page-pad" aria-labelledby="work-page-title"><div class="split-heading reveal"><h2 class="section-label" id="work-page-title">Selected work</h2><p>Five projects across agents, decision making, language, vision, and applied ML.</p></div><div class="work-grid work-page-grid">
-<article class="work-card reveal"><div class="work-title-panel work-panel-1"><span class="art-kicker">01 / Flagship project</span><h3>LLM-Aug-MoE</h3></div><div class="work-meta"><p>Built a multilingual mixture-of-experts architecture to improve low-resource language performance without scaling a single monolithic model.</p><p>Combined a compact base model with task-specific experts through cross-attention and selective layer freezing to keep training efficient.</p><p class="project-result">Improved low-resource multilingual performance by 28% while reducing compute cost by roughly 60%.</p></div></article>
-<article class="work-card reveal"><div class="work-title-panel work-panel-2"><span class="art-kicker">02 / Multimodal systems</span><h3>Vision Augmented Large Language Models (VA-LLM)</h3></div><div class="work-meta"><p>Designed a multimodal reasoning system for joint text-image understanding instead of a pure text-only LLM workflow.</p><p>Integrated CLIP ViT with StableLM via cross-attention and packaged the workflow with Docker and Hugging Face Hub for reproducible experimentation.</p><p class="project-result">Turned a research prototype into a repeatable multimodal experimentation stack rather than a notebook-only demo.</p></div></article>
-<article class="work-card reveal"><div class="work-title-panel work-panel-3"><span class="art-kicker">03 / Live deployment</span><h3>NHL Expected Goals (xG) Prediction &amp; Live Deployment</h3></div><div class="work-meta"><p>Built an end-to-end expected-goals pipeline for hockey analytics with real-time data and live model serving.</p><p>Shipped a Dockerized Flask API, Streamlit dashboard, NHL API ingestion layer, and CometML-backed model registry for experiment hot-swapping.</p><p class="project-result">Demonstrated production-style model serving, monitoring, and real-time prediction loops in a research environment.</p></div></article>
-<article class="work-card reveal"><div class="work-title-panel work-panel-4"><span class="art-kicker">04 / Proactive agents</span><h3>Presence — Self-Evolving Proactive AI Agents</h3></div><div class="work-meta"><p>Co-developed a proactive agent architecture that learns reusable workflows and user preferences from past interactions.</p><p>The agent decides when to act, suggest, ask, or remain silent.</p><p class="project-result">Achieved approximately 16× context reduction while retaining strong task performance.</p></div></article>
-<article class="work-card reveal"><div class="work-title-panel work-panel-5"><span class="art-kicker">05 / Decision models</span><h3>System-1 Models for Agentic Decision Making</h3></div><div class="work-meta"><p>Built a benchmark for specialized System-1 decision models, Jev and Nimble, against frontier LLMs and confidence-routed hybrids.</p><p>Tested agent tool selection across more than 4,000 decisions and 800 workflows.</p><p class="project-result">Evaluated accuracy, calibration, latency, and cost to understand when fast decisions are enough.</p></div></article>
-</div></section>
-<section class="inner-cta page-pad"><p>Explore the research behind the systems.</p><a href="/publications/">View publications <span aria-hidden="true">↗</span></a></section>
-</main>
-<footer class="site-footer page-pad"><span>© <span id="year">2026</span> Nikhil Reddy Pottanigari</span><a href="mailto:nikhilreddy3888@gmail.com">Get in touch ↗</a></footer>
-<script src="/scripts/home.js"></script>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="/">Nikhil Reddy</a><nav aria-label="Primary navigation"><a href="/about/">About</a><a href="/work/" aria-current="page">Work</a><a href="/publications/">Research</a></nav></header>
+  <main id="main"><div class="intro"><p class="eyebrow">Selected work</p><h1>Ideas into<br><span>working systems.</span></h1><p class="summary">A few projects across agents, vision-language models, and practical evaluation.</p></div><section><h2>Projects</h2><div><article><h3>Presence</h3><p>A proactive agent that learns reusable workflows and user preferences, deciding when to act, suggest, ask, or stay silent.</p></article><article><h3>Vision Augmented Language Models</h3><p>Joint vision-language reasoning with CLIP ViT and StableLM, packaged for reproducible experimentation.</p></article><article><h3>System-1 Decision Models</h3><p>Benchmarking agent tool selection across 4,000+ decisions and 800+ workflows, measuring accuracy, calibration, latency, and cost.</p></article></div></section><section><h2>More</h2><div><p><a href="https://github.com/nikhilreddy3888">GitHub ↗</a> &nbsp; <a href="/public/COLM_Resume_2026.pdf">Résumé ↗</a></p></div></section></main>
+  <footer><span>Nikhil Reddy Pottanigari</span><a href="mailto:nikhilreddy3888@gmail.com">Get in touch ↗</a></footer>
 </body>
 </html>
