@@ -60,13 +60,3 @@ footer, .site-footer { border-top: 1px solid var(--line); padding-block: 24px 36
   .paper-content { padding-block: 36px; }
 }
 @media (prefers-reduced-motion: reduce) { a { transition: none; } }
-
-/* Contact links stay in the opening area on every page. */
-.profile-links { width: min(820px, calc(100% - 64px)); margin-inline: auto; padding-bottom: 22px; border-bottom: 1px solid var(--line); gap: 8px 22px; }
-.profile-links a { color: var(--ink); text-decoration: underline; padding-block: 4px; }
-.intro-with-photo { max-width: none; display: flow-root; }
-.profile-photo { float: right; width: 132px; height: 164px; object-fit: cover; object-position: center 30%; margin: 0 0 24px 32px; border-radius: 4px; }
-@media (max-width: 600px) {
-  .profile-links { width: calc(100% - 40px); gap: 6px 18px; padding-bottom: 18px; }
-  .profile-photo { float: none; display: block; width: 96px; height: 120px; margin: 0 0 24px; }
-}
